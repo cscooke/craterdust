@@ -4,9 +4,21 @@
   src: url('../fonts/proximanova-reg-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'ProximaNova-l';
+  src: url('../fonts/proximanova-light-webfont.eot');
+  src: url('../fonts/proximanova-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ProximaNova-b';
+  src: url('../fonts/proximanova-sbold-webfont.eot');
+  src: url('../fonts/proximanova-sbold-webfont.woff') format('woff');
+}
+
 body{
   margin: 0 auto;
-  background-color: #F2F2F2;
+  background-color: #fff;
 }
 
 #wrap{
@@ -15,8 +27,54 @@ body{
   margin: 0 auto -60px;
 }
 
+.cd-logo{
+  font-family: 'ProximaNova';
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #000;
+}
+
+.cd-nav a{
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.cd-nav-list{
+  float: right;
+  font-family: 'ProximaNova-b';
+  font-size: 11px;
+}
+
+#footer{
+  bottom: 0;
+}
+
 .footer{
-  background: #000;
-  height: 60px;
+  height: 120px;
   margin-top: 100px;
+  bottom: 0;
+  color: #cecece;
+  letter-spacing: 2px;
+}
+
+.left{
+  background-color: #2e2e2e;
+  height: 100%;
+}
+
+.right{
+  background-color: #000;
+  height: 100%;
+}
+
+.contact-footer{
+  margin-top: 55px;
+  list-style-type: none;
+  font-size: 10px;
+}
+
+li{
+  display: inline;
+  margin-left: 30px;
 }
