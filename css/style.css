@@ -18,7 +18,7 @@
 
 body{
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 
 #wrap{
@@ -54,24 +54,42 @@ body{
   height: 120px;
   margin-top: 100px;
   bottom: 0;
-  color: #cecece;
+  color: #2e2e2e;
   letter-spacing: 2px;
+  font-family: 'ProximaNova';
 }
 
 .left{
-  background-color: #2e2e2e;
+  background-color: #fff;
   height: 100%;
 }
 
 .right{
-  background-color: #000;
+  background-color: #cecece;
   height: 100%;
+}
+
+.right p{
+  margin-top: 55px;
+  font-size: 16px;
+}
+
+.right a{
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color ease 0.1s;
+  -moz-transition: color ease 0.1s;
+  transition: color ease 0.1s;
+}
+
+.right a:hover{
+  color: #f36f20;
 }
 
 .contact-footer{
   margin-top: 55px;
   list-style-type: none;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 li{
