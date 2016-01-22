@@ -100,3 +100,20 @@ li{
   display: inline;
   margin-left: 30px;
 }
+
+/*MASONRY*/
+.grid{
+  margin: 0 auto;
+}
+
+.grid-item{
+  width: 840px;
+}
+
+.grid-item-sm{
+  width: 420px;
+}
+
+.grid-item-lg{
+  width: 840px;
+}

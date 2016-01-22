@@ -40,6 +40,19 @@
       </div>
     </div>
 
+    <div class="row grid">
+      <div class="col-sm-12">
+        <div class="grid-item grid-item-sm"><img src="img/violet-sm.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/cyan-sm.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/violet-sm.jpg" /></div>
+        <div class="grid-item grid-item-sm grid-item-lg"><img src="img/orange-lg.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/blue-md.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/green-sm.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/cyan-md.jpg" /></div>
+        <div class="grid-item grid-item-sm"><img src="img/orange-md.jpg" /></div>
+      </div>
+    </div>
+
 
 
 
@@ -69,7 +82,14 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+    $('.grid').masonry({
+      //options
+      fitWidth: true,
+      itemSelector: '.grid-item',
+      columnWidth: 420
+    });
+    </script>
 </body>
 
 </html>
