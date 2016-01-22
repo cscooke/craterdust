@@ -46,6 +46,10 @@ body{
   font-size: 11px;
 }
 
+.categories{
+  margin-top: 100px;
+}
+
 #footer{
   bottom: 0;
 }
