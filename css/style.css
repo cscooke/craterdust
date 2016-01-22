@@ -27,6 +27,10 @@ body{
   margin: 0 auto -60px;
 }
 
+.navbar{
+  background-color: #fff;
+}
+
 .cd-logo{
   font-family: 'ProximaNova';
   letter-spacing: 4px;
@@ -73,6 +77,10 @@ body{
   height: 100%;
 }
 
+.right:hover{
+  background-color: #f36f20;
+}
+
 .right p{
   margin-top: 55px;
   font-size: 16px;
@@ -86,14 +94,15 @@ body{
   transition: color ease 0.1s;
 }
 
-.right a:hover{
-  color: #f36f20;
-}
-
 .contact-footer{
   margin-top: 55px;
   list-style-type: none;
   font-size: 11px;
+}
+
+.mail-icon{
+  vertical-align: middle;
+  margin-right: 12px;
 }
 
 li{
