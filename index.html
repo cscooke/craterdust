@@ -5,8 +5,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <script src="js/jquery-2.2.0.min.js"></script>
-  <script src="js/masonry.pkgd.min.js"></script>
-  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
 </head>
 
@@ -43,16 +42,18 @@
       </div>
     </div>
 
-    <div class="row grid">
-      <div class="col-sm-12">
-        <div class="grid-item grid-item-sm"><img src="img/violet-sm.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/cyan-sm.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/violet-sm.jpg" /></div>
-        <div class="grid-item grid-item-sm grid-item-lg"><img src="img/orange-lg.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/blue-md.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/green-sm.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/cyan-md.jpg" /></div>
-        <div class="grid-item grid-item-sm"><img src="img/orange-md.jpg" /></div>
+    <div class="container-fluid">
+      <div class="row grid">
+        <div class="col-sm-12">
+          <div class="grid-item grid-item--width2 blue"></div>
+          <div class="grid-item red"></div>
+          <div class="grid-item green"></div>
+          <div class="grid-item purple"></div>
+          <div class="grid-item green"></div>
+          <div class="grid-item grid-item--width2 blue"></div>
+          <div class="grid-item red"></div>
+          <div class="grid-item red"></div>
+        </div>
       </div>
     </div>
 
@@ -91,13 +92,12 @@
 
 
   <script>
-    $('.grid').masonry({
-      //options
-      fitWidth: true,
+    $('.grid').isotope({
+      // options
       itemSelector: '.grid-item',
-      columnWidth: 420
+      layoutMode: 'fitRows'
     });
-    </script>
+  </script>
 
     <script>
       $(function(){

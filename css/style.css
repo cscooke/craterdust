@@ -112,22 +112,51 @@ li{
   margin-left: 30px;
 }
 
-/*MASONRY*/
+/*ISOTOPE GRID*/
+.grid-item{
+  width: 25%;
+}
+
+.grid-item--width2{
+  width: 50%;
+}
+
+.red{
+  height: 10px;
+  background-color: red;
+}
+
+.purple{
+  height: 20px;
+  background-color: purple;
+}
+
+.green{
+  height: 10px;
+  background-color: green;
+}
+
+.blue{
+  height: 20px;
+  background-color: blue;
+}
+
+/*MASONRY
 .grid{
   margin: 0 auto;
 }
 
 .grid-item{
-  width: 840px;
+  width: 33.3%;
 }
 
 .grid-item-sm{
-  width: 420px;
+  width: 25%;
 }
 
 .grid-item-lg{
-  width: 840px;
-}
+  width: 66.6%;
+}*/
 
 /*PARALLAX TEST*/
 .border-box{
