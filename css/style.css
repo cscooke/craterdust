@@ -39,6 +39,7 @@ body{
   font-weight: lighter;
   font-size: 13px;
   color: #000;
+  margin-left: 50px;
 }
 
 .cd-nav a{
@@ -48,8 +49,9 @@ body{
 
 .cd-nav-list{
   float: right;
-  font-family: 'ProximaNova-b';
-  font-size: 11px;
+  font-family: 'din-condensed-web';
+  font-size: 13px;
+  margin-right: 50px;
 }
 
 .categories{
@@ -57,21 +59,22 @@ body{
 }
 
 .intro{
-  margin: 150px;
+  margin-top: 350px;
+  margin-bottom: 150px;
 }
 
 .intro h1{
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-family: 'GeoG-m';
-  font-size: 60px;
+  font-family: 'din-condensed-web';
+  font-size: 68px;
 }
 
 .intro p{
   color: #333333;
   letter-spacing: 0.08em;
-  font-family: 'ProximaNova';
+  font-family: 'acumin-pro-semi-condensed';
   font-size: 16px;
 }
 
@@ -79,13 +82,20 @@ body{
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  font-family: 'GeoG-m';
+  font-family: 'din-condensed-web';
   font-size: 14px;
 }
 
 .services p{
   color: #f36f20;
   font-size: 32px;
+  font-family: 'acumin-pro-semi-condensed';
+}
+
+.recent-work{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
 }
 
 #footer{
