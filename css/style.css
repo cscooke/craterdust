@@ -56,6 +56,38 @@ body{
   margin-top: 100px;
 }
 
+.intro{
+  margin: 150px;
+}
+
+.intro h1{
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'GeoG-m';
+  font-size: 60px;
+}
+
+.intro p{
+  color: #333333;
+  letter-spacing: 0.08em;
+  font-family: 'ProximaNova';
+  font-size: 16px;
+}
+
+.intro h4{
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-family: 'GeoG-m';
+  font-size: 14px;
+}
+
+.services p{
+  color: #f36f20;
+  font-size: 32px;
+}
+
 #footer{
   bottom: 0;
 }
