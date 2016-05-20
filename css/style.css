@@ -18,7 +18,7 @@
 
 body{
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
@@ -64,7 +64,7 @@ body{
 }
 
 .intro{
-  margin-top: 350px;
+  margin-top: 250px;
   margin-bottom: 250px;
 }
 
@@ -102,7 +102,70 @@ body{
 .recent-work{
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #fff;
+  background-color: #f36f20;
+  position: relative;
+  height: 300px;
+}
+
+.recent-work h1{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'din-condensed-web';
+  font-size: 68px;
+}
+
+.recent-work p{
+  color: #fff;
+  letter-spacing: 0.08em;
+  font-family: 'acumin-pro-semi-condensed';
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.recent-work:after {
+    content: "";
+    background: #f36f20;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    transform: skewY(8deg);
+    left: 0;
+    right: 0;
+    bottom: -200px;
+    z-index: -1;
+
+}
+
+.folio-margin{
+  margin-top: 30px;
+}
+
+.filler{
+  background: #fff;
+  z-index:-2;
+  position: relative;
+}
+
+.about-us{
+  background: #f1f1f1;
+  margin-top: 30px;
+  padding: 150px;
+}
+
+.about-us h1{
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'din-condensed-web';
+  font-size: 68px;
+}
+
+.about-us p{
+  color: #333333;
+  letter-spacing: 0.08em;
+  font-family: 'acumin-pro-semi-condensed';
+  font-size: 16px;
 }
 
 #footer{
@@ -119,7 +182,7 @@ body{
 }
 
 .left{
-  background-color: #fff;
+  background-color: #f1f1f1;
   height: 100%;
 }
 
