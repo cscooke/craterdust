@@ -516,3 +516,62 @@ p.capitalize:first-letter {
   background-color: #fdc741;
   border-color: #ffffff;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  HOVER FX
+/*-----------------------------------------------------------------------------------*/
+.hover-item {
+	position: relative;
+	overflow: hidden;
+}
+
+.hover-caption {
+	opacity: 0;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+
+
+.hover-caption small, .hover-caption .small {
+	color: #eee;
+}
+
+.hover-item:hover .hover-caption {
+	opacity: 1;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+.hover-caption:hover {
+  translate3d: (0, 5px, 0);
+}
+.hover-caption h3, .hover-caption .text-hr {
+	color: #fff;
+	clear: left;
+  	display: block;
+}
+
+.hover-caption h3 {
+	margin: 0;
+}
+
+.hover-caption a {
+	color: #fff;
+}
+
+.hover-caption a.btn {
+	color: #222;
+}
