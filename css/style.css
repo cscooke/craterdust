@@ -149,12 +149,15 @@ body{
 
 .about-us{
   background: #f1f1f1;
-  margin-top: 30px;
-  padding: 150px;
+  margin-top: 150px;
+  padding: 300px;
+  background: url('../img/about-us.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .about-us h1{
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: 'din-condensed-web';
@@ -162,10 +165,32 @@ body{
 }
 
 .about-us p{
-  color: #333333;
+  color: #fff;
   letter-spacing: 0.08em;
   font-family: 'acumin-pro-semi-condensed';
   font-size: 16px;
+}
+
+.clients{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.clients h1{
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'din-condensed-web';
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.client-row{
+  margin-top: 50px;
+}
+
+.client-row img{
+  opacity: 0.3;
 }
 
 #footer{
