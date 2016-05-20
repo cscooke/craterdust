@@ -293,3 +293,226 @@ li{
   color: #f36f20;
   margin-top: 750px;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*   HELPERS
+/*-----------------------------------------------------------------------------------*/
+.smoothie,
+.smoothie:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.background-cover {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.spacing i {
+	padding-left: 8px;
+	padding-right: 8px
+}
+
+.mt {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
+.mt90 {
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.mt30 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mb90 {
+	margin-bottom: 90px;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.mts {
+	margin-top: -20px;
+}
+
+.removetopmargin {
+	margin-top: 0;
+}
+
+/* Padding top & bottom */
+.pt {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* Description Styling / Used in portfolio & Blog images footnotes */
+.desc p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.desc p > i {
+	font-size: 16px;
+	color: #979797;
+}
+
+.desc p > i:hover {
+	font-size: 16px;
+	color: #e74c3c;
+	cursor: pointer;
+}
+
+.desc p.lead {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.desc p.time {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+	color: #979797;
+	text-align: right;
+}
+
+.desc p.time > i {
+	font-size: 12px;
+}
+
+
+/* Dashed Separator */
+
+hr-d {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+p.capitalize {
+	display:block;
+	text-align: left;
+}
+
+p.capitalize:first-letter {
+	text-transform:capitalize;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:5px;
+}
+
+
+/* BUTTONS */
+.btn {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+  	background-color: #000;
+  	color: #ffffff;
+  	border-radius: 0;
+  	border: none;
+  	outline: none;
+  	font-family: 'Work Sans', sans-serif;
+  	font-size: 12px;
+}
+
+.btn:active, .btn.active {
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-cta {
+  	color: #000;
+	background-color: #d8d8d8;
+  	border-color: #d8d8d8;
+}
+
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active,
+.btn-cta.active,
+.open .dropdown-toggle.btn-cta {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
+}
+
+/* Button Theme */
+.btn-theme {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
+}
+
+/* Button Yellow */
+.btn-yellow {
+  color: #2f2f2f;
+  background-color: #ffd56c;
+  border-color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow.active,
+.open .dropdown-toggle.btn-yellow {
+  color: #2f2f2f;
+  background-color: #fdc741;
+  border-color: #ffffff;
+}
