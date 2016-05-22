@@ -58,9 +58,9 @@ body{
 }
 
 .intro-section{
-  background: url('../img/intro-bg.png');
-  background-position: center;
-  background-size: cover;
+  -webkit-box-shadow: inset 0px 15px 30px 0px rgba(0,0,0,.07);
+  -moz-box-shadow: inset 0px 15px 30px 0px rgba(0,0,0,.07);
+  box-shadow: inset 0px 15px 30px 0px rgba(0,0,0,.07);
 }
 
 .intro{
@@ -118,7 +118,7 @@ body{
 .recent-work p{
   color: #fff;
   letter-spacing: 0.08em;
-  font-family: 'acumin-pro-semi-condensed';
+  font-family: 'fira-sans-2';
   font-size: 16px;
   font-weight: 200;
 }
@@ -134,11 +134,69 @@ body{
     right: 0;
     bottom: -200px;
     z-index: -1;
-
 }
 
 .folio-margin{
   margin-top: 30px;
+}
+
+see-work{
+  text-align: center;
+}
+
+.see-work p{
+  display: inline-block;
+  color: #f36f20;
+  margin-top: 50px;
+  font-family: 'fira-sans-2';
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.btn{
+  display: inline-block;
+  position: relative;
+  background: none;
+  color: #cecece;
+  border: none;
+  box-shadow: 0 15px 30px rgba(0,0,0,.07);
+  padding: 20px 70px 20px 70px;
+  font-family: 'din-condensed-web';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 1c */
+
+.btn:after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-1c:after {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #f36f20;
+}
+
+.btn-1c:hover,
+.btn-1c:active {
+	color: #fff;
+}
+
+.btn-1c:hover:after,
+.btn-1c:active:after {
+	width: 100%;
 }
 
 .filler{
